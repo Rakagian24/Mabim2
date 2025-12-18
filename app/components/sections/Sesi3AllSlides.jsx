@@ -33,7 +33,10 @@ import { Sparkles, Brain, Heart, Star } from 'lucide-react'
 // ====================
 export function Slide1DefinisiDanPentingnya() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-red-900 to-slate-900">
+    <section
+      id="sesi3-definisi-dan-pentingnya"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-red-900 to-slate-900"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(239, 68, 68, 0.3) 50px, rgba(239, 68, 68, 0.3) 100px)',
@@ -102,7 +105,10 @@ export function Slide1DefinisiDanPentingnya() {
 // ====================
 export function Slide2SoftSkillFundamental() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-yellow-900 to-slate-950">
+    <section
+      id="sesi3-soft-skill-fundamental"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-yellow-900 to-slate-950"
+    >
       <div className="absolute inset-0 opacity-15">
         <div className="absolute inset-0" style={{
           backgroundImage: 'radial-gradient(circle, rgba(234, 179, 8, 0.4) 2px, transparent 2px)',
@@ -183,7 +189,10 @@ export function Slide2SoftSkillFundamental() {
 // ====================
 export function Slide3HardVsSoft() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-black via-purple-950 to-black">
+    <section
+      id="sesi3-hard-vs-soft"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-black via-purple-950 to-black"
+    >
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 30px, rgba(168, 85, 247, 0.4) 30px, rgba(168, 85, 247, 0.4) 60px)',
@@ -260,7 +269,10 @@ export function Slide3HardVsSoft() {
 // ====================
 export function Slide4PersonalBranding() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-amber-900 to-slate-900">
+    <section
+      id="sesi3-personal-branding"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-amber-900 to-slate-900"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'radial-gradient(circle, rgba(245, 158, 11, 0.5) 1px, transparent 1px)',

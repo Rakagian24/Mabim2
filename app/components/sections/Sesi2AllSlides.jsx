@@ -33,7 +33,10 @@ import { Sparkles, Award, Heart, Layers, Globe } from 'lucide-react'
 // ====================
 export function Slide1BidangInformatika() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-purple-950 to-slate-950">
+    <section
+      id="sesi2-bidang-informatika"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-purple-950 to-slate-950"
+    >
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(168, 85, 247, 0.5) 35px, rgba(168, 85, 247, 0.5) 70px)',
@@ -83,7 +86,10 @@ export function Slide1BidangInformatika() {
 // ====================
 export function Slide2KampusMengajarkanDasar() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-blue-950 to-slate-950">
+    <section
+      id="sesi2-kampus-mengajarkan-dasar"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-950 via-blue-950 to-slate-950"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'linear-gradient(rgba(59, 130, 246, 0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(59, 130, 246, 0.4) 1px, transparent 1px)',
@@ -150,7 +156,10 @@ export function Slide2KampusMengajarkanDasar() {
 // ====================
 export function Slide3TShaped() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-green-900 to-slate-900">
+    <section
+      id="sesi2-t-shaped"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-green-900 to-slate-900"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'radial-gradient(circle, rgba(34, 197, 94, 0.3) 1px, transparent 1px)',
@@ -227,7 +236,10 @@ export function Slide3TShaped() {
 // ====================
 export function Slide4MenemukanPassion() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-black via-pink-900 to-black">
+    <section
+      id="sesi2-menemukan-passion"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-black via-pink-900 to-black"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(236, 72, 153, 0.5) 1px, transparent 0)',
@@ -313,7 +325,10 @@ export function Slide4MenemukanPassion() {
 // ====================
 export function Slide5English() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-teal-900 to-slate-900">
+    <section
+      id="sesi2-english"
+      className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-teal-900 to-slate-900"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(20, 184, 166, 0.5) 35px, rgba(20, 184, 166, 0.5) 70px)',
